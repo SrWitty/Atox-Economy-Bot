@@ -3,11 +3,12 @@ const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const fs = require('fs');
 const mongoose = require('mongoose');
+require('dotenv').config();
 
 const client = new Client({ intents: [GatewayIntentBits.Guilds] });
 client.commands = new Collection();
 
-require('./dashboard/app');
+
 require('./handlers/commandHandler')(client);
 
 // Load event files
@@ -29,7 +30,7 @@ const rest = new REST({ version: '9' }).setToken(process.env.TOKEN);
             useNewUrlParser: true,
             useUnifiedTopology: true,
         });
-        console.log('\x1b[32mConnected to MongoDB\x1b[0m'); // Green color
+        console.log('\x1b[32mConnected to MongoDB\x1b[0m'); 
 
         const commands = client.commands.map(command => command.data.toJSON());
         await rest.put(
