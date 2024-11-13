@@ -38,7 +38,7 @@ To set up the Economy Bot, follow these steps:
 Clone the Economy Bot repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/SrWitty/Atox-Economy-Bot.git
+git clone https://github.com/M7mdJs/Atox-Economy-Bot.git
 ```
 
 ### Step 2: Install Dependencies
@@ -76,9 +76,9 @@ node index.js
 
 **Sir.Witty**
 
-- **GitHub**: [Sir.Witty](https://github.com/SrWitty)
-- **Discord**: [Sir.Witty#1091](https://discord.com/users/1091118468155314306)
-- **X**: [Sir.Witty](https://x.com/SirWitty_1)
+- **GitHub**: [M7mdJs](https://github.com/M7mdJs)
+- **Discord**: [_9z.](https://discord.com/users/1091118468155314306)
+- **X**: [M7mdJs](https://x.com/SirWitty_1)
 
 
 ```
